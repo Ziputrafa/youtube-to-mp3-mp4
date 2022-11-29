@@ -1,0 +1,45 @@
+#download {
+  display: grid;
+  justify-items: center;
+  align-content: space-around;
+  overflow: hidden;
+}
+button#download-btn,
+#format-options button,
+#download p {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(5px);
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#format-options button {
+  opacity: 0.3;
+}
+#download p {
+  cursor: default;
+}
+#format-options {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  transform: translateY(20vh);
+  transition: 0.5s cubic-bezier(1, -0.35, 0.23, 1.52);
+}
+#download-btn {
+  transform: translateY(10vh);
+  transition: 0.5s cubic-bezier(1, -0.35, 0.23, 1.52);
+  transition-delay: 1s;
+}
+#download-btn img {
+  width: 2rem;
+}
+.show {
+  transform: translateY(0vh) !important;
+}
+.highlightMp3,
+.highlightMp4 {
+  opacity: 1 !important;
+}
