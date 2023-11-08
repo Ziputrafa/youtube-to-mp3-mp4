@@ -1,28 +1,16 @@
 import './App.css';
+import Header from './layout/Header';
+import Footer from './layout/Footer';
+import Main from './layout/Main';
 
-import { useState, useRef } from 'react';
-import Header from './assets/components/Header/Header';
-import Input from './assets/components/Input/Input';
-import Download from './assets/components/Download/Download';
-
-function App() {
-  const [downloadUrl, setDownloadUrl] = useState('');
-  const [inputPos, setInputPos] = useState();
-  const [option, setOption] = useState('mp4');
-  const [show, setShow] = useState('');
-
+const App = () => {
   return (
     <>
       <Header />
-      <Input setDownloadUrl={setDownloadUrl} inputPos={setInputPos} option={option} setShow={setShow} />
-      <Download downloadUrl={downloadUrl} setOption={setOption} show={show} />
-      <section id="bg">
-        <div></div>
-        <div></div>
-        <div></div>
-      </section>
+      <Main />
+      <Footer />
     </>
   );
-}
+};
 
 export default App;
