@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="flex gap-5 justify-center">
       {socialMedia.map((socialBtn) => (
         <a key={socialBtn.id} target="_blank" rel="noopener noreferrer" href={socialBtn.link}>
-          <img className="cursor-pointer" src={socialBtn.iconUrl} />
+          <img className="cursor-pointer" src={socialBtn.icon} />
         </a>
       ))}
     </footer>

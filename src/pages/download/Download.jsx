@@ -1,4 +1,5 @@
 import getResponse from '../../utils/getResponse';
+import downloadIcon from '../../assets/download.svg';
 
 const Download = () => {
   const [response, error] = getResponse();
@@ -10,7 +11,7 @@ const Download = () => {
       ) : (
         <button className="w-7 center">
           <a target="_blank" rel="noopener noreferrer" href={response}>
-            <img src="src/assets/download.svg" />
+            <img src={downloadIcon} />
           </a>
         </button>
       )}

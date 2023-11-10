@@ -1,12 +1,14 @@
+import githubIcon from '../assets/github.svg';
+import InstaIcon from '../assets/ig.svg';
 export const socialMedia = [
   {
     id: 1,
-    iconUrl: 'src/assets/github.svg',
+    icon: githubIcon,
     link: 'https://github.com/Ziputrafa',
   },
   {
     id: 2,
-    iconUrl: 'src/assets/ig.svg',
+    icon: InstaIcon,
     link: 'https://www.instagram.com/ziputrafa/',
   },
 ];
