@@ -15,17 +15,21 @@ Check out the live demo: [YouTube to MP3/MP4 Converter](https://ziputrafa.github
 ## How It Works
 1. Users enter the YouTube video URL into the provided input field.
 1. The front-end JavaScript code captures the user input.
-1. Using the Fetch API, the front-end sends a request to the backend API endpoint with the user input.
-1. The backend API processes the request, converts the YouTube video to the specified format (MP3/MP4).
-1. The front-end receives the response from the API and displays the converted files to the user.
+1. Using the Fetch API, the front end sends a request to the backend API endpoint with the user input.
+1. The backend API processes the request, and converts the YouTube video to the specified format (MP3/MP4).
+1. The front end receives the response from the API and displays the converted files to the user.
 ## How to Run Locally
 To run this project locally, follow these steps:
 1. Clone the repository
-1. Navigate to the project directory: __cd ziputrafa.github.io__
+1. Navigate to the project directory: __cd youtube-to-mp3-mp4__
 1. Install dependencies: __npm install__
 1. Start the development server: __npm start__
 1. Open your browser and visit __http://localhost:3000__ to view the application.
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or find any issues, please open an issue or create a pull request.
 ## Acknowledgement
-+ __BackEnd API :__ Thanks to for [Ytjar](https://rapidapi.com/user/ytjar) providing the backend API for Youtube video conversion. 
++ __BackEnd API :__ Thanks to for [Ytjar](https://rapidapi.com/user/ytjar) providing the backend API for Youtube video conversion.
+## Contact
++ __Email:__ [fauzifarzancendekiawan@gmail.com](mailto:fauzifarzancendekiawan@gmail.com)
++ __LinkedIn:__ [Ahmad Fauzi Sugianto LinkedIn](https://www.linkedin.com/in/ahmad-fauzi-643993276/)
++ __GitHub:__ [Ziputrafa](https://github.com/Ziputrafa/)
